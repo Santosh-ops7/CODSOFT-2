@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 75px;
+    background-color: rgb(19, 14, 63);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(133, 133, 245);
+    font-size: 1.1rem;
+}
+
+
+.left {
+    font-size: 1.5rem;
+
+}
+.firstSec .button{
+    padding: 50px 0;
+}
+.firstSec .btn{
+   padding: 12px;
+   background-color: #1e2167;
+   color: white;
+   border: 2px solid white;
+   border-radius: 6px;
+   cursor: pointer;
+   font-size: 20px;
+
+}
+
+.firstSec {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 110px 0px;
+}
+
+.firstSec>div {
+    width: 30%;
+}
+
+.leftsec {
+    font-size: 2.1rem
+}
+
+.rightsec img {
+    width: 80%;
+
+}
+
+.blue {
+    color: rgb(143, 64, 217);
+}
+
+.secsec>div {
+    margin: 45px 0px;
+    max-width: 80vw;
+    height: 18vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.secsec h1 {
+    font-size: 1.9rem;
+    padding: 26px 64px
+}
+
+.secsec ul {
+    display: flex;
+
+}
+
+.secsec ul li {
+    display: flex;
+    font-size: 2.22rem;
+    color: rgb(121, 46, 190);
+    flex-direction: column;
+    text-decoration: none;
+    margin: 0 53px
+}
+
+
+.thirdsec {
+    width: 100%;
+}
+
+.thirdsec h1 {
+    font-size: 1.9rem;
+    margin: 21px 55px;
+}
+.thirdsec h2{
+    color: red;
+}
+
+
+.p1 {
+    top: 13px;
+    left: 10px;
+    padding: 21px 13px;
+    margin: 0px 95px;
+}
+.p2 {
+    top: 13px;
+    left: 10px;
+    padding: 21px 13px;
+    margin: 0px 95px;
+}
+footer{
+    background-color: #0e0e1a;
+
+}
+.footer{
+    display: flex;
+   padding: 35px 122px;
+   margin: 0px 400px;
+
+}
+
+ footer .footer-first{
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+
+}
